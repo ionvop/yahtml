@@ -10,7 +10,7 @@ div:
                     _: YAHTML (YAML as HTML)
                 - div:
                     class: subtitle -center
-                    _: YAML Ain't Markup Language? Let's change that
+                    _: YAML Ain't Markup Language? Let's change that!
                 - div:
                     class: actions
                     _:
