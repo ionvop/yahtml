@@ -1,0 +1,20 @@
+div:
+    class: -header
+    _:
+        - a:
+            class: -a -header__title -title -center__flex
+            href: ./
+            _: YAHTML
+        - div:
+        - a:
+            class: -a -header__about -header__tab -center__flex
+            href: about/
+            _: About
+        - a:
+            class: -a -header__contact -header__tab -center__flex
+            href: contact/
+            _: Contact
+        - a:
+            class: -a -header__github -header__tab -center__flex
+            href: https://github.com/ionvop/yahtml
+            _: GitHub
