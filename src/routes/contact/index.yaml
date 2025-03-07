@@ -1,0 +1,48 @@
+div:
+    class: main -main
+    _:
+        - import: components/header.yaml
+        - div:
+            class: content
+            _:
+                - div:
+                    class: title -center
+                    _: Contact
+                - div:
+                    class: contact
+                    _:
+                        - div:
+                        - form:
+                            class: -form contact__form
+                            action: mailto:ionvop@gmail.com
+                            _:
+                                - div:
+                                    class: contact__form__subject
+                                    _:
+                                        - div:
+                                            class: contact__form__subject__label -center__flex
+                                            _: Subject
+                                        - div:
+                                            class: contact__form__subject__input -center__flex
+                                            _:
+                                                - input:
+                                                    class: -input
+                                                    name: subject
+                                - div:
+                                    class: contact__form__label
+                                    _: Message
+                                - div:
+                                    class: contact__form__input
+                                    _:
+                                        - textarea:
+                                            class: -textarea
+                                            name: body
+                                - div:
+                                    class: contact__form__submit -center
+                                    _:
+                                        - button:
+                                            class: -button
+                                            _: Send
+                        - div:
+
+        - import: components/footer.yaml
