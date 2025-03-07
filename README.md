@@ -29,13 +29,13 @@ The content file is structured hierarchically, defining HTML elements as keys.
 
 ```yaml
 div:
-  class: container
-  _: 
-    - h1: Welcome to My Page
-    - p:
-      class: description
-      _: This is a dynamically generated page using YAML.
-    - import: components/button.yaml
+    class: container
+    _: 
+        - h1: Welcome to My Page
+        - p:
+            class: description
+            _: This is a dynamically generated page using YAML.
+        - import: components/button.yaml
 ```
 - `_` (underscore) represents the inner content of an HTML tag.
 - `import` allows including external YAML content.
@@ -45,23 +45,23 @@ CSS styles can be defined in YAML.
 
 ```yaml
 body:
-  background-color: "#f4f4f4"
+    background-color: "#f4f4f4"
 
 .container:
-  width: 80%
-  margin: 0 auto
+    width: 80%
+    margin: 0 auto
 ```
 - Pipe (`|`) replaces colons (`:`) for pseudo-classes (`hover`, `focus`):
-  ```yaml
-  a|hover:
-    color: red
-  ```
+    ```yaml
+    a|hover:
+        color: red
+    ```
 
 ### 3. **JavaScript Inclusion (`script.js`)**
 A standard JavaScript file is used:
 
 ```js
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     console.log("Page loaded!");
 });
 ```
