@@ -1,0 +1,67 @@
+div:
+    class: main -main
+    _:
+        - import: components/header.yaml
+        - div:
+            class: content
+            _:
+                - div:
+                    class: title -center
+                    _: About
+                - div:
+                    class: intro section
+                    _:
+                        - div:
+                            class: intro__title section__title -title
+                            _: What is YAHTML?
+                        - div:
+                            class: intro__text section__text
+                            _: |
+                                YAHTML is a lightweight PHP-based system that dynamically renders HTML pages using YAML configurations.
+
+                                It reads YAML files to generate structured HTML, apply styles, and include JavaScript files.
+                - div:
+                    class: features section
+                    _:
+                        - div:
+                            class: features__title section__title -title
+                            _: Features
+                        - div:
+                            class: features__text section__text
+                            _: |
+                                - Dynamic HTML generation: Uses structured YAML files to generate HTML elements.
+                                
+                                - Scoped and global styles: Supports per-route and global CSS styles via YAML.
+                                
+                                - JavaScript inclusion: Loads both global and per-route JavaScript files.
+                                
+                                - Modular imports: Allows importing YAML-defined content from other files.
+                - div:
+                    class: how section
+                    _:
+                        - div:
+                            class: how__title section__title -title
+                            _: How it works
+                        - div:
+                            class: how__text section__text
+                            _: |
+                                1. The script extracts the request URI and finds the corresponding YAML file.
+                                
+                                2. It parses the YAML structure and renders it into HTML.
+                                
+                                3. If styles and scripts exist, they are included in the page.
+                - div:
+                    class: why section
+                    _:
+                        - div:
+                            class: why__title section__title -title
+                            _: Why use YAHTML?
+                        - div:
+                            class: why__text section__text
+                            _: |
+                                - Direct YAML-to-HTML Rendering in PHP: Unlike static site generators, this approach dynamically parses and renders YAML at runtime.
+                                
+                                - Minimal Dependencies: No need for JavaScript frameworks or external APIs; it's all handled in a single PHP file.
+                                
+                                - Easy Content Importing: The YAML's ability to import other YAML files makes it modular.
+        - import: components/footer.yaml
