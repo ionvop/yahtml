@@ -1,0 +1,17 @@
+.content:
+    padding: 5rem
+
+.title:
+    padding: 1rem
+    font-size: 2rem
+    font-weight: bold
+
+.section:
+    padding-top: 5rem
+
+.section__title:
+    padding: 1rem
+
+.section__text:
+    padding: 1rem
+    white-space: pre-line
