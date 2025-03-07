@@ -1,0 +1,16 @@
+.title:
+    padding: 1rem
+    padding-top: 5rem
+    font-size: 2rem
+    font-weight: bold
+
+.subtitle:
+    padding: 1rem
+
+.actions:
+    display: grid
+    grid-template-columns: 1fr max-content 1fr
+    padding-top: 5rem
+
+.actions__github:
+    padding: 1rem
