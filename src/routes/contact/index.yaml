@@ -44,5 +44,4 @@ div:
                                             class: -button
                                             _: Send
                         - div:
-
         - import: components/footer.yaml
