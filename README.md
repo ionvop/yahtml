@@ -12,7 +12,7 @@ YAML as HTML (YAHTML) is a lightweight PHP-based system that dynamically renders
 ## Project Structure
 
 ```
-/project-root
+/src
 │── /routes
 │   ├── /example-page
 │   │   ├── index.yaml      # Defines the page content
