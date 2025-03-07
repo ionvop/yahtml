@@ -20,7 +20,6 @@ YAML as HTML (YAHTML) is a lightweight PHP-based system that dynamically renders
 │   │   ├── script.js       # (Optional) Defines JavaScript for this page
 │── style.yaml              # (Optional) Global styles
 │── script.js               # (Optional) Global JavaScript
-│── index.php               # Main PHP script
 ```
 
 ## YAML Structure
