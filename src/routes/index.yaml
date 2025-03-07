@@ -21,6 +21,6 @@ div:
                             _:
                                 - button:
                                     class: -button
-                                    _: Open in GitHub
+                                    _: Open on GitHub
                         - div:
         - import: components/footer.yaml
