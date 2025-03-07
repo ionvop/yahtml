@@ -1,0 +1,30 @@
+.content:
+    padding: 5rem
+
+.title:
+    padding: 1rem
+    font-size: 2rem
+    font-weight: bold
+
+.contact:
+    display: grid
+    grid-template-columns: 1fr 2fr 1fr
+
+.contact__form__subject:
+    display: grid
+    grid-template-columns: max-content 1fr
+
+.contact__form__subject__label:
+    padding: 1rem
+
+.contact__form__subject__input:
+    padding: 1rem
+
+.contact__form__label:
+    padding: 1rem
+
+.contact__form__input:
+    padding: 1rem
+
+.contact__form__submit:
+    padding: 1rem
