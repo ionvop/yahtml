@@ -1,0 +1,94 @@
+":root":
+    --theme: "#77b"
+    --theme__light: "#abd"
+    --theme__dark: "#448"
+
+body:
+    margin: 0rem
+    padding: 0rem
+    background-color: "#111"
+    color: "#fff"
+    font-family: sans-serif
+
+.-a:
+    display: block
+    color: inherit
+    text-decoration: none
+
+.-button:
+    padding: 1rem
+    background-color: var(--theme)
+    color: "#fff"
+    font-size: 1rem
+    border: none
+    border-radius: 1rem
+    cursor: pointer
+
+.-button|hover:
+    background-color: "#fff"
+    color: var(--theme)
+
+.-form:
+    margin-block-end: 0rem
+
+.-input:
+    width: 100%
+    padding: 1rem
+    background-color: "#fff"
+    color: "#000"
+    font-size: 1rem
+    border: none
+    border-radius: 1rem
+
+.-textarea:
+    width: 100%
+    height: 10rem
+    padding: 1rem
+    background-color: "#fff"
+    color: "#000"
+    font-size: 1rem
+    border: none
+    border-radius: 1rem
+    resize: vertical
+
+.-center:
+    text-align: center
+
+.-center__flex:
+    display: flex
+    justify-content: center
+    align-items: center
+
+.-title:
+    font-size: 1.5rem
+    font-weight: bold
+
+.-main:
+    display: grid
+    grid-template-rows: max-content 1fr max-content
+    min-height: 100%
+
+.-header:
+    display: grid
+    grid-template-columns: max-content 1fr repeat(3, max-content)
+    background-color: var(--theme)
+
+.-header__title:
+    padding: 1rem
+
+.-header__tab:
+    padding: 1rem
+
+.-header__tab|hover:
+    background-color: var(--theme__light)
+
+.-footer:
+    display: grid
+    grid-template-columns: max-content 1fr repeat(4, max-content)
+    background-color: var(--theme__dark)
+
+.-footer__title:
+    padding: 1rem
+
+.-footer__tab:
+    padding: 1rem
