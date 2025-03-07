@@ -1,5 +1,5 @@
 div:
-    class: main -main
+    class: main__contact -main
     _:
         - import: components/header.yaml
         - div:
