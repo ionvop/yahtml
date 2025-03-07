@@ -1,0 +1,26 @@
+div:
+    class: main -main
+    _:
+        - import: components/header.yaml
+        - div:
+            class: content
+            _:
+                - div:
+                    class: title -center
+                    _: YAHTML (YAML as HTML)
+                - div:
+                    class: subtitle -center
+                    _: YAML Ain't Markup Language? Let's change that
+                - div:
+                    class: actions
+                    _:
+                        - div:
+                        - a:
+                            class: -a actions__github
+                            href: https://github.com/ionvop/yahtml
+                            _:
+                                - button:
+                                    class: -button
+                                    _: Open in GitHub
+                        - div:
+        - import: components/footer.yaml
