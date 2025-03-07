@@ -1,0 +1,23 @@
+div:
+    class: -footer
+    _:
+        - div:
+            class: -footer__title
+            _: "&copy; 2025 ionvop"
+        - div:
+        - a:
+            class: -a -footer__home -footer__tab
+            href: ./
+            _: Home
+        - a:
+            class: -a -footer__about -footer__tab
+            href: about/
+            _: About
+        - a:
+            class: -a -footer__contact -footer__tab
+            href: contact/
+            _: Contact
+        - a:
+            class: -a -footer__github -footer__tab
+            href: https://github.com/ionvop/yahtml
+            _: GitHub
